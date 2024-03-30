@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.signature,
+.main,
+.student_info>table,
+.main>table,
+.student_info,
+header
+{
+    width: 100%;
+}
+.printable{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+header>img{
+    width: 150px;
+    aspect-ratio: 1;
+}
+.title{
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.student_info{
+    display: flex;
+    font-size: 14px;
+}
+.signature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.waterMark{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50% ,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.waterMark>img{
+    width:70%;
+    opacity: 0.2;
+}
+.main_marks_section>tr>th>span{
+    font-size: 10px;
+    background-color: aquamarine;
+}
+
+.subject_table{
+    flex: 1;
+}
+
+
