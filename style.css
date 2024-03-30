@@ -58,8 +58,8 @@ header>img{
     justify-content: center
 }
 .waterMark>img{
-    width:70%;
-    opacity: 0.2;
+    width:75%;
+    opacity: 0.1;
 }
 .main_marks_section>tr>th>span{
     font-size: 10px;
@@ -71,3 +71,6 @@ header>img{
 }
 
 
+@media print{
+    .pagebreak{page-break-after: always;}
+}
